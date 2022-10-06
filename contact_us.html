@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Enciclopedia médica - Formulario de contacto</title>
+</head>
+<body>
+
+    <h1>Enciclopedia médica: Formulario de contacto</h1>
+
+    <a href="index.html">inicio</a>
+
+    <form id="form-order" action="contact_us_page.html" method="GET">
+        <p>
+            <label>Asunto (obligatorio) <input type="text" name="Asunto" placeholder="escriba el dato pedido" 
+            required></label>
+            
+        </p>
+        <p>Comentario o pregunta:</p>
+            
+        <p><textarea name="comentario o pregunta" placeholder="escriba el dato pedido" required></textarea></p>
+        <p>
+            <label> Yo soy: (obligatorio)</label>
+            <select name="yo soy">
+                <option value="Paciente">Paciente</option>
+                <option value="Científico">Científico</option>
+                <option value="Médico">Médico</option>
+                <option value="Educador">Educador</option>
+                <option value="Fabricante">Fabricante</option>
+                <option value="Periodista">Periodista</option>
+            </select>
+        </p>
+        <p>
+        <label>Fecha de nacimiento <input type="date" name="numberexample" id="numberexample"></label>
+        
+        </p>
+        <fieldset>
+
+            <legend>Sexo</legend>
+            <p><label for="Hombre"><input type="radio" name="sexo" value="Hombre" id="Hombre"> Hombre</label></p>
+            <p><label for="Mujer"><input type="radio" name="sexo" value="Mujer" id="Mujer"> Mujer</label></p> 
+            <p><label for=Otro><input type="radio" name="sexo" value="Otro" id="Otro"> Otro</label></p>
+
+        </fieldset>
+        <p>
+
+            <label><input type="email" name="correo" placeholder="escriba el dato pedido" 
+            > Correo electrónico</label>
+            
+        </p>
+        <p>
+            ¿Desea recibir más información?:
+            <input type="checkbox" name="vehiculo1">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>    
+<footer>
+  <a href="utilidades.html">Utilidades</a>
+  <p>
+    Younes Jarir Ezzahraoui
+    &#169;
+    2022
+    Ingeniería Biomédica UA
+  </p>
+</footer>    
+</body>
+</html>
